@@ -25,14 +25,14 @@ public:
         MANUAL        = 0,
         CIRCLE        = 1,
         STABILIZE     = 2,
-        AUTO          = 3,
+        AUTO          = 3,  //modified for MAVSDK
         ACRO          = 4,
         FLY_BY_WIRE_A = 5,
-        FLY_BY_WIRE_B = 6,
+        RTL           = 6, //modified for MAVSDK
         CRUISE        = 7,
         AUTOTUNE      = 8,
         TRAINING      = 10, 
-        RTL           = 11,
+        FLY_BY_WIRE_B = 11, //modified for MAVSDK
         LOITER        = 12,
         TAKEOFF       = 13,
         AVOID_ADSB    = 14,
