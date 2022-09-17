@@ -31,7 +31,7 @@ public:
         FLY_BY_WIRE_B = 6,
         CRUISE        = 7,
         AUTOTUNE      = 8,
-        TRAINING      = 10,
+        TRAINING      = 10, 
         RTL           = 11,
         LOITER        = 12,
         TAKEOFF       = 13,
